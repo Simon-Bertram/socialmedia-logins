@@ -1,13 +1,16 @@
 const LoginForm = () => {
   return ( 
-    <div className="grid grid-cols-3 w-2/3 max-w-[800px] border border-gray-300 shadow-md rounded-lg p-5 h-1/2 max-h-96 mx-auto text-center">
+    <div className="grid grid-cols-3 w-2/3 max-w-[800px] mt-20 border border-gray-300 shadow-md rounded-lg p-10 h-1/2 max-h-96 mx-auto text-center">
       <h1 className="col-span-3 text-lg">Choose your login method</h1>
       <div className="left flex flex-col gap-6 content-center">
           <div className="login-button">
-            <button href="/login/google" className="btn bg-blue-800 text-white">Google</button>
+            <button href="/login/google" className="btn w-full bg-blue-800 text-white">Google</button>
           </div>
           <div className="login-button">
-            <button href="/login/google" className="btn bg-blue-800 text-white">Facebook</button>
+            <button href="/login/google" className="btn w-full bg-blue-800 text-white">Facebook</button>
+          </div>
+          <div className="login-button">
+            <button href="/login/google" className="btn w-full bg-blue-800 text-white">Microsoft</button>
           </div>
         </div>
         <div className="center h-full relative items-center">
